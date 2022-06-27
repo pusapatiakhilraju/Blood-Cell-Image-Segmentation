@@ -17,7 +17,6 @@ class ImagePreprocessing:
 
         return images
 
-
 x = ImagePreprocessing()
 images = x.read_images()
 plt.imshow(cv2.cvtColor(images[1], cv2.COLOR_BGR2RGB))
